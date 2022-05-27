@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100vw;
+    height: 100vh;
+    background-color: rosybrowns;
+    position: relative;
+    display: flex;
+}
+
+.boxes {
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;
+    margin: 50px;
+    border: 2px solid red;
+    padding: 30px;
+    font-size: 50px;
+    position: relative;
+}
+
+#box3 {
+    position: relative;
+    z-index: 4;
+    top: 50px;
+    left: 50px; 
+}
